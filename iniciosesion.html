@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicia Sesión</title>
+    <link rel="stylesheet" href="css/iniciosesion.css">
+    <link rel="icon" type="image/jpg" href="img/iconn.png">
+</head>
+<body>
+    <div class="menu">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo" width="205px" height="69px">
+        </div>
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="iniciosesion.html">Inicia Sesión</a></li>
+            <li><a href="registro.html">Regístrate</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <div class="container-form inicio-sesion">
+            <form class="formulario">
+                <h2 class="ingresar">Iniciar Sesión</h2>
+                <br>
+                <input type="email" name="email-inicio" id="correo" placeholder="Ingrese email" required pattern="[A-Za-z0-9]+@ [a-zA-Z0._-]+\.+[a-zA-Z]+">
+                <input type="password" name="contraseña-inicio" id="contraseña" placeholder="Ingrese contraseña" autocomplete="off" required pattern="[A-Za-z0-9]+">
+                <button type="button" onclick="iniciarsesion()">Iniciar Sesión</button>  
+             </form>   
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.17/dist/sweetalert2.all.min.js"></script>
+    <script src="js/iniciarsesion.js"></script>
+</body>
+</html>

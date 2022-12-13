@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(48, 191, 64);
+    background: radial-gradient(circle, rgba(48, 191, 64, 0.36458333333333337) 0%, rgba(8, 189, 44, 0.5242471988795518) 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu {
+    height: 30%;
+    background-color: white;
+    margin: auto;
+    border-radius: 1em;
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 8000px;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: green;
+    padding: 20px;
+    display: block;
+    border-radius: 15px 15px / 15px 15px;
+    font-size: 25px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: #d0fdd7;
+    color: black;
+}
+
+.logo {
+    float: left;
+}
+
+.formulario{
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #64c27b;
+    text-align: center;
+   
+}
+
+.formulario input{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+}  
+
+.formulario input[type="button"]{
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: aliceblue;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.container-form{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+    
+}
+
+button{
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+}
