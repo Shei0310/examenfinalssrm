@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgb(48, 191, 64);
+    background: rgb(179, 202, 182);
     background: radial-gradient(circle, rgba(48, 191, 64, 0.36458333333333337) 0%, rgba(8, 189, 44, 0.5242471988795518) 100%);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
